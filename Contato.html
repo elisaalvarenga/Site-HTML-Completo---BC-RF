@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Formulário de Contato">
+        <meta name="keywords" content="Consultoria em Desenvolvimento Web, Desenvolvimento Web, Soluções Web, Serviços de Desenvolvimento, Consultoria Digital, Web Design">
+        <link rel="icon" href="Logo.png">
+        <meta name="author" content="Elisa Silva Alvarenga">
+        <title>Consultoria Web - Contato</title>
+        
+        <link rel="stylesheet" href="Estilo.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Contato</h1>
+            <nav>
+                <ul>
+                    <li><a href="Index.html">Início</a></li>
+                    <li><a href="Quem somos.html">Quem Somos</a></li>
+                    <li><a href="Servicos.html">Nossos Serviços</a></li>
+                    <li><a href="Tecnologias.html">Nossas Tecnologias</a></li>
+                    <li><a href="Portfolio.html">Porfolio</a></li>
+                    <li><a href="FAQ.html">FAQ</a></li>
+                    <li><a href="Contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+            <h2>Entre em Contato</h2>
+            <form action="processa.html" method="post">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" required placeholder="Seu nome aqui">
+                </div>
+            
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required placeholder="seunome@email.com">
+                </div>
+            
+                <div>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" required placeholder="Escreva sua mensagem aqui"></textarea>
+                </div>
+            
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Consultoria Web. Todos os direitos reservados.</p>
+        </footer>
+    </body>
+</html>
